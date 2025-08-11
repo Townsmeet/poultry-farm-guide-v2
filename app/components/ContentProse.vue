@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { ParsedContentv2 as ParsedContent } from "@nuxt/content";
 import ProseH1 from "./content/ProseH1.vue";
 import ProseH2 from "./content/ProseH2.vue";
 import ProseH3 from "./content/ProseH3.vue";
@@ -16,7 +17,7 @@ import ProsePre from "./content/ProsePre.vue";
 import ProseHr from "./content/ProseHr.vue";
 import ProseCode from "./content/ProseCode.vue";
 
-const props = defineProps<{ value: unknown }>();
+const props = defineProps<{ value: ParsedContent | Record<string, unknown> }>();
 const components = {
   h1: ProseH1,
   h2: ProseH2,

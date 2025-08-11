@@ -9,61 +9,96 @@ tags:
   - health
 ---
 
-# The Ultimate Guide to a Healthy Chicken Diet
-
 Feeding your chickens a balanced diet is essential for their health, egg production, and overall well-being. This guide covers everything you need to know about chicken nutrition.
 
-## Essential Nutrients for Chickens
+## Essential Nutrients
 
 Chickens require a balanced diet that includes:
 
-- **Protein**: For growth and egg production (16-20% for layers)
-- **Carbohydrates**: For energy
-- **Fats**: For energy and nutrient absorption
-- **Vitamins & Minerals**: Including calcium for strong eggshells
-- **Grit**: To help with digestion
+- Protein for growth and egg production (16–20% for layers)
+- Carbohydrates for energy
+- Fats for energy and nutrient absorption
+- Vitamins and minerals (especially calcium for strong eggshells)
+- Grit to help with digestion
 
-## Types of Chicken Feed
+> Good nutrition is the foundation of a resilient, productive flock.
 
-### 1. Starter Feed (0-8 weeks)
+### Feed Types by Life Stage
 
-- High protein (20-24%)
-- Formulated for rapid growth
-- Fed as crumbles for easy eating
+1. Starter (0–8 weeks) — High protein (20–24%), crumbles for easy eating
+2. Grower (8–16 weeks) — Moderate protein (16–18%) to support steady growth
+3. Layer (16+ weeks) — ~16% protein with added calcium for eggshells
 
-### 2. Grower Feed (8-20 weeks)
+![Balanced layer ration](/images/demo-image2.jpg "Layer feed with appropriate calcium")
 
-- Moderate protein (16-18%)
-- Supports steady growth
-- Transition gradually from starter
+---
 
-### 3. Layer Feed (20+ weeks)
+## Sample Ration Breakdown
 
-- Formulated for egg production
-- Contains extra calcium
-- Available as pellets, crumbles, or mash
+| Component | Purpose                        | Notes                      |
+| --------- | ------------------------------ | -------------------------- |
+| Protein   | Growth, feathering, egg laying | Soybean meal, fish meal    |
+| Carbs     | Daily energy                   | Corn, wheat, barley        |
+| Fats      | Energy, nutrient absorption    | Vegetable oil, seeds       |
+| Calcium   | Strong eggshells               | Oyster shell, limestone    |
+| Vitamins  | Metabolism, immunity           | Premix in commercial feeds |
 
-## Healthy Treats (in moderation)
+### Treats (In Moderation)
 
-- Leafy greens
-- Vegetables
-- Fruits (avoid avocado and citrus)
-- Mealworms
-- Cooked eggs (great protein boost)
+- Leafy greens, squash, peas
+- Fruits (avoid citrus)
+- Mealworms for protein
+- Cooked eggs (great boost)
 
-## Foods to Avoid
+#### Unsafe Foods
 
-- Avocado (toxic to chickens)
-- Chocolate
-- Raw beans
+- Avocado, chocolate, raw beans
 - Salty or sugary foods
 - Moldy or spoiled food
 
-## Feeding Tips
+### Watering Tips
 
-- Provide fresh water at all times
-- Use appropriate feeders to prevent waste
-- Store feed in airtight containers
-- Monitor your chickens' health and adjust feed as needed
+- Keep water clean and shaded in summer
+- Use heated waterers in winter to prevent freezing
 
-By following these guidelines, you'll ensure your chickens receive the nutrition they need to stay healthy and productive.
+#### Example Config (YAML)
+
+```yaml
+feed:
+  layer:
+    protein: 16
+    calcium: high
+  grower:
+    protein: 18
+  starter:
+    protein: 20-24
+schedule:
+  morning: fresh feed, water check
+  evening: treat rotation, coop lockup
+```
+
+#### Inline Code
+
+Use `1/4 cup` oyster shell per 5 hens as a free-choice supplement.
+
+##### More Reading
+
+- Practical guide: [Poultry Nutrition Basics](https://example.com)
+- Watch: [Feeding playlist](https://www.youtube.com/@PoultryfarmGuide)
+
+###### Final Notes
+
+Track egg production and body condition weekly to adjust feed as needed.
+
+## Video: Nutrition Basics
+
+<div class="relative w-full overflow-hidden rounded" style="padding-top: 56.25%">
+  <iframe
+    class="absolute left-0 top-0 h-full w-full"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="Chicken nutrition basics"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+  </div>

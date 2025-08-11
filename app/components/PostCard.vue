@@ -23,14 +23,17 @@ const formatDate = (d) => {
     <template #header>
       <NuxtLink :to="post.path || post._path" class="block">
         <div class="relative overflow-hidden rounded-lg">
-          <div class="aspect-[16/9] w-full bg-gray-100 dark:bg-gray-800">
-            <img
+          <div
+            class="relative aspect-[16/9] w-full bg-gray-100 dark:bg-gray-800"
+          >
+            <NuxtImg
               v-if="coverOf(post)"
               :src="coverOf(post)"
               :alt="post.title"
-              class="h-full w-full object-cover transition duration-200 group-hover:scale-[1.02]"
-              loading="lazy"
-              decoding="async"
+              fill
+              class="object-cover transition duration-200 group-hover:scale-[1.02]"
+              sizes="(max-width: 768px) 100vw, 768px"
+              :preload="false"
             />
             <div
               v-else

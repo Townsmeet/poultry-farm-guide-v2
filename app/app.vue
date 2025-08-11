@@ -9,7 +9,14 @@
           to="/"
           class="flex items-center gap-2 font-semibold text-gray-900 hover:opacity-90 dark:text-white"
         >
-          <UIcon name="i-heroicons-sparkles" class="h-5 w-5 text-primary-500" />
+          <NuxtImg
+            src="/images/logo.jpg"
+            alt="logo"
+            width="20"
+            height="20"
+            class="rounded"
+            preload
+          />
           <span>Poultry Farm Guide</span>
         </NuxtLink>
 
