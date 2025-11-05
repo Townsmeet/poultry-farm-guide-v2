@@ -6,15 +6,10 @@ process_files() {
     local pattern=$1
     local cmd=$2
     
-    # Get list of staged files matching the pattern
-    local files=$(git diff --cached --name-only --diff-filter=ACM | grep -E "$pattern" || true)
-    
-    # If there are matching files, process them
-    if [ -n "$files" ]; then
-        echo "$files" | xargs -r $cmd
-        # Add the fixed files back to staging
-        echo "$files" | xargs -r git add
-    fi
+    # Get list of staged files matching the pattern, using null terminators for safety
+    git diff --cached --name-only -z --diff-filter=ACM | 
+        grep -zE "$pattern" | 
+        xargs -0 -r -I{} sh -c "$cmd \"{}\" && git add \"\$1\"" _ {}
 }
 
 # Run ESLint on staged JavaScript/TypeScript files
