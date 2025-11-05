@@ -164,10 +164,12 @@
         </div>
       </UContainer>
     </footer>
+    <Analytics />
   </UApp>
 </template>
 
 <script setup>
+import { Analytics } from "@vercel/analytics/nuxt";
 const year = new Date().getFullYear();
 const isMenuOpen = ref(false);
 const route = useRoute();
