@@ -1,6 +1,7 @@
 ---
 title: "Unveiling the Beauty of Rainbow Chicken Breeds: A Colorful Guide to Unique Poultry"
 description: "When it comes to poultry, chickens are undoubtedly the most popular and versatile choice for backyard enthusiasts and hobby"
+coverImage: images/rainbow-chickens.jpeg
 publishedAt: "2023-06-07"
 tags:
   - backyard-chickens

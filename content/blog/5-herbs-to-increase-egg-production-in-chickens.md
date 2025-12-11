@@ -1,6 +1,7 @@
 ---
 title: "5  Herbs To Increase Egg Production In Chickens"
 description: "&nbsp;A decrease in egg production is one of the top three issues affecting layer industry after disease and suboptimal management practices, which can result in lower profits for producers. Preventing these factor(s) will improve egg production and profitability in layer units."
+coverImage: images/5-herbs-to-increase.jpeg
 publishedAt: "2021-05-18"
 tags:
   - phytogenics

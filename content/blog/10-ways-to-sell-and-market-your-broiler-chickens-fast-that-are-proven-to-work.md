@@ -1,6 +1,7 @@
 ---
 title: "10 ways to sell  and market your broiler chickens fast that are proven to work"
 description: "In selling or marketing your broiler chickens, you have to explore all possible means, you don’t depend on one channel least you get stranded. Therefore, to avoid such a situation, you should always give priority to marketing than production- never underestimate the power of marketing."
+coverImage: images/10-ways-to-sell.jpeg
 publishedAt: "2020-11-03"
 tags:
   - sales

@@ -26,7 +26,7 @@ const formatDate = (d) => {
           <div
             class="relative aspect-[16/9] w-full bg-gray-100 dark:bg-gray-800"
           >
-            <NuxtImg
+            <img
               v-if="coverOf(post)"
               :src="coverOf(post)"
               :alt="post.title"

@@ -71,9 +71,9 @@ useHead(() => ({
           >
         </div>
 
-        <NuxtImg
+        <img
           v-if="post?.meta?.coverImage"
-          :src="post.meta.coverImage"
+          :src="`/${post.meta.coverImage.replace('/blog', '')}`"
           :alt="post?.title || post?.meta?.title || 'Post cover'"
           class="mt-6 rounded-lg object-cover w-full max-h-96"
         />

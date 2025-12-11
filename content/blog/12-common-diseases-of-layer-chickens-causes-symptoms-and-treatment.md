@@ -1,6 +1,7 @@
 ---
 title: "12 Common Diseases of Layer Chickens: ( Causes, symptoms, and Treatment)"
 description: "&nbsp;The high mortality rate in poultry has always been a nightmare to poultry farmers ab initio. And the major causes of this mortality are as a result of infections caused by several poultry diseases. These poultry diseases affect different parts of the chickens&rsquo; body causing the chicken to fall sick and in severe cases death. In the same vine, some diseases only affect some kind of poultry birds, even at a certain age."
+coverImage: images/12-common-diseases.jpeg
 publishedAt: "2021-05-10"
 tags:
   - disease

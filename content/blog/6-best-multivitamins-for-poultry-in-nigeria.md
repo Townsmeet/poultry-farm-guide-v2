@@ -1,6 +1,7 @@
 ---
 title: "6 Best Multivitamins for Poultry in Nigeria With Their Prices"
 description: "&nbsp;A multivitamin is a preparation intended to serve as a dietary supplement with vitamins, dietary minerals, and other nutritional elements. Such preparations are available in the form of tablets, capsules, pastilles, powders, liquids, or injections. Although, most multivitamins poultry in Nigeria are mostly in powder and liquid forms."
+coverImage: images/6-best-multivitamins.jpeg
 publishedAt: "2021-01-17"
 tags:
   - multivitamins-for-broilers

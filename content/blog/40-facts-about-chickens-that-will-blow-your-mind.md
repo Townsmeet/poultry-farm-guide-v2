@@ -1,6 +1,7 @@
 ---
 title: "40 Facts about chickens that will blow your mind !"
 description: "As a child, observing the behavior of chickens has always fascinated me. Having them around the yard is soothing with natural vibes. But there is more than just being domestic birds and a great source of protein. "
+coverImage: images/40-facts-about-chickens.jpeg
 publishedAt: "2020-11-07"
 tags:
   - facts-about-chickens

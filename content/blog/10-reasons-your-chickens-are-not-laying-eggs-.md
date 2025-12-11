@@ -1,6 +1,7 @@
 ---
 title: "10 Reasons your Chickens Are Not Laying Eggs And How to Fix It."
 description: "&nbsp;There are several reasons why your chickens are not laying eggs again. Sometimes, they might have gone through stress, health challenges, nutritional problem, molting, lighting issues, etc. However, some of these problems are natural why some are not, but with good management practices this problem can be rectified and your chickens will start laying again."
+coverImage: images/10-reasons.jpeg
 publishedAt: "2021-09-03"
 tags:
   - layers

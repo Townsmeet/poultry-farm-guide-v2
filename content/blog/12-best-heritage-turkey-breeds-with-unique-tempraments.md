@@ -1,6 +1,7 @@
 ---
 title: "12 Best Heritage Turkey Breeds With Unique Tempraments"
 description: "&nbsp;Heritage turkeys are a great way to get a healthy, flavorful, and well-behaved bird. The best heritage turkeys have the ability to adapt to their surroundings, which means they&rsquo;re going to be able to live in a wide variety of climates and environments."
+coverImage: images/12-best-heritage-turkey.jpeg
 publishedAt: "2022-01-24"
 tags:
   - turkey-farming
