@@ -13,7 +13,12 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/content",
     "@nuxtjs/seo",
+    "nuxt-gtag",
   ],
+
+  gtag: {
+    id: process.env.NUXT_PUBLIC_GTAG_ID || "G-X0QDSLT77V",
+  },
 
   colorMode: {
     preference: "system",
